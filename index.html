@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front End Development</title>
+	<meta charset="utf-8">
+	<meta name="Front end web developer" content="complete website">
+	<meta name="keywords" content="HTMl,css,front end">
+	<meta name="author" content="Sandeep Choudhary">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<script type="text/javascript" src="frontend.js"></script>
+</head>
+<body>
+	<header>
+		<div class="heardermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gameset2.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" name="search" size="2.5" class="mysearchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)" class="active">Menu</a>
+						<div class="drop-down">
+						<a href="index.html">Home</a>
+						<a href="blog.html">Blog</a>
+						<a href="media.html">Media</a>
+						<a href="signup.html">Signup</a>
+						<a href="about.html">About</a>
+						</div>
+					</li>
+						
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop"><a href="media.html">Media</a>
+						<div class="drop-down">
+							<a href="">Audio</a>
+							<a href="">Video</a>
+							<a href="">Photo</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html">login</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</nav>
+			
+		</div>
+		
+	</header>
+	<div class="site-container">
+		<div class="top-site" id="topcontainer">
+			<img src="images/gameset.png" id="imggif" alt="front image" class="front-logo"><br>
+			<!--<img src="images/PVtR.gif"alt="random gif"  class="front-gif">-->
+			<h1 id="frontheader"> GAMERSET</h1>
+		</div>
+		<div class="middle-site">
+			<div class="middle-site-1">
+				<img src="images/flower2.jpg"src="https://drive.google.com/file/d/129NfX6q73eVt2qSYuHC76aw6je4fIAMr/view?usp=sharing" alt="flower image 1" class="flower-image-1">
+				<h2 class="middle-header">The budding flower</h2>
+				<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet luctus venenatis lectus magna fringilla. Risus commodo viverra maecenas accumsan lacus vel facilisis. Facilisi nullam vehicula ipsum a. Ipsum dolor sit amet consectetur adipiscing elit ut. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Lectus proin nibh nisl condimentum. Consectetur lorem donec massa sapien faucibus et molestie ac. Quis viverra nibh cras pulvinar mattis. Pellentesque adipiscing commodo elit at imperdiet dui. </p>
+			</div>
+			<div class="middle-site-2">
+				<img src="images/flower3.jpg" src="https://drive.google.com/file/d/1vcerdCQMtBd_gim2JP1C7Zq15mHv0sEB/view?usp=sharing"alt="flower image 2" class="flower-image-2">
+				<h2 class="middle-header"> Our services</h2>
+				<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet luctus venenatis lectus magna fringilla. Risus commodo viverra maecenas accumsan lacus vel facilisis. Facilisi nullam vehicula ipsum a. Ipsum dolor sit amet consectetur adipiscing elit ut. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Lectus proin nibh nisl condimentum.</p>
+			</div>
+			<div class="middle-site-3">
+				<h2>Need Our Services?</h2>
+				<h3>Hit the contact box and Drop a message</h3>
+				<p class="contact-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet luctus venenatis lectus magna fringilla. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+				<!--<a class="contact-us" href="mailto:csandeep497@gmail.com">Contact US</a>-->
+			</div>
+		</div>
+		<div class="mypopup">
+			<div id="Messagebox">
+				<div id="popupcontact">
+					<form action="#" id="form" method="POST" name="form">
+						<img src="images/delete-1.png" onclick="close_form()" id="close">
+						<h2>Contact Us</h2>
+						<input type="text" id="name" name="name" placeholder="Name">
+						<input type="email" name="email" placeholder="email" id="email">
+						<textarea id="msg" name="Message" placeholder="message"></textarea>
+						<a href="javascript:input_fields()" id="submit">Send Message</a>
+						
+					</form>
+					
+				</div>
+			</div>
+			<a onclick="show_form()" class="contact-us" id="popup">Contact Us</a>
+		</div>
+	<footer>
+
+		<div class="bottom-site">
+			<div class="bottomfooter">
+				<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<p class="copyright">&copy;2021 Sandeep choudhary</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

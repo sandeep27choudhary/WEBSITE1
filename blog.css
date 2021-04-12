@@ -1,0 +1,9 @@
+
+.blog-header{
+	background-color: black;
+	padding: 50px 20px;
+}
+.blog-content{
+	max-width: 940px;
+	margin: auto;
+}

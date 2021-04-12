@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.mymenu .active{
+	color: green;
+}
+body{
+	position: relative;
+}
+h1{
+	font-size: 90px;
+	margin: 0;
+	padding-top: 50px;
+	color: darkgreen;
+	font-family: 'Sacramento', cursive;
+}
+
+h2{
+	font-size: 25px;
+	color: darkgreen;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	padding-top: 50px;
+	color: darkgreen;
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: lightgreen;
+	border-width: 5px;
+	width: 100%;
+}
+ footer{
+ 	text-align: center;
+ }
+/* Navigation bar section*/
+
+.heardermenu .navbar{
+	text-align: right;
+	background-color: #000000;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: fixed;
+	z-index: 100000;
+}
+.navbar li{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	padding: 15px 15px;
+	color: #fff;
+	font-size: 15px;
+}
+.navbar li:hover{
+background-color: #02eb12;
+border-radius:100px;
+}
+.mymenu{
+	margin-right: 5%;
+}
+.mymenu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.mysearchbar{
+	float: left;
+	margin-left: 30px;
+	margin-top: 12px;
+	padding: 5px 15px;
+	border: 1px solid #dbdbdb;
+	border-top-left-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-right: 0px;
+}
+.mysearchbutton{
+	float: left;
+	margin-top: 12px;
+	padding: 5px 15px;
+	border: 1px solid #dbdbdb;
+	border-left: 0px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #00c40d;
+	color: #fff;
+
+}
+.mysearchbutton:hover{
+	background-color: #02eb12;
+	text-decoration: none;
+}
+
+
+.navbar img{
+ float: left;
+ width: 70px;
+ height: 70px;
+}
+
+/* Drop down Menu*/
+.drop-down{
+	display: none;
+	position: absolute;
+	background-color: #02eb12;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.drop-down a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 16px;
+	text-align: left;
+}
+.drop-down a:hover{
+	background-color:black; 
+}
+.drop:hover .drop-down{
+	display: block;
+}
+
+/* site container*/
+.site-container{
+	display: inline-block;
+}
+#frontheader{
+	text-align: right;
+}
+
+.top-site{
+	background-color: black;
+	padding-top: 50px;
+}
+/*.front-logo{
+	height:30%;
+	width:30%;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+}*/
+.front-gif{
+	height:50%;
+	width:50%;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+
+}
+/*middle Site */
+.middle-site{
+	background-color: black;
+}
+
+.middle-site-1{
+	text-align: left;
+	width:50%;
+	margin:auto;
+
+}
+
+.flower-image-1{
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin: 0px;
+	padding-left: 50px;
+}
+.middle-header{
+	color: green;
+}
+.para1{
+	color: #02eb12;
+}
+
+/*middle site 2*/
+
+.middle-site-2{
+	text-align: right;
+	width:50%;
+	margin:100px auto;
+}
+
+.flower-image-2{
+	height: 250px;
+	width: 250px;
+	float: right;
+	margin: 0px;
+	padding-right: 50px;
+
+}
+/*middle site 3 */
+
+.middle-site-3{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.contact-us {
+	background-color:#097a27;
+	-webkit-border-radius:42px;
+	-moz-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:19px;
+	padding:8px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.contact-us:hover {
+	background-color:#55d60f;
+}
+.contact-us:active {
+	position:relative;
+	top:1px;
+}
+
+/*bottom site*/
+.bottom-site{
+	background-color: black;
+	padding: 50px 0 40px;
+	margin: auto;
+	
+}
+.bottom-site a{
+	color: darkgreen;
+	margin: 5px 5px;
+	text-decoration: none;
+}
+
+.bottom-site a:hover{
+	color: #fff;
+}
+
+.copyright{
+	color: #EAF6F6;
+	font-size: 15px;
+	padding: 25px 0;
+
+/* Clear floats*/
+
+.clear:before, .clear: after{
+	content: "";
+	display: table;
+}
+.clear:  after{
+	clear: both;
+}
+.clear{
+	zoom: 1;
+}
