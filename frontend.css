@@ -17,14 +17,12 @@ h1{
 	margin: 0;
 	padding-top: 50px;
 	color: darkgreen;
-	font-family: 'Sacramento', cursive;
 }
 
 h2{
 	font-size: 25px;
 	color: darkgreen;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
 }
 
 h3{
@@ -256,14 +254,15 @@ border-radius:100px;
 	color: #EAF6F6;
 	font-size: 15px;
 	padding: 25px 0;
+}
 
 /* Clear floats*/
 
-.clear:before, .clear: after{
+.clear:before, .clear:after{
 	content: "";
 	display: table;
 }
-.clear:  after{
+.clear:after{
 	clear: both;
 }
 .clear{
