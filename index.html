@@ -51,7 +51,6 @@
 	<div class="site-container">
 		<div class="top-site" id="topcontainer">
 			<img src="images/gameset.png" id="imggif" alt="front image" class="front-logo"><br>
-			<!--<img src="images/PVtR.gif"alt="random gif"  class="front-gif">-->
 			<h1 id="frontheader"> GAMERSET</h1>
 		</div>
 		<div class="middle-site">
@@ -66,28 +65,35 @@
 				<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet luctus venenatis lectus magna fringilla. Risus commodo viverra maecenas accumsan lacus vel facilisis. Facilisi nullam vehicula ipsum a. Ipsum dolor sit amet consectetur adipiscing elit ut. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Lectus proin nibh nisl condimentum.</p>
 			</div>
 			<div class="middle-site-3">
-				<h2>Need Our Services?</h2>
-				<h3>Hit the contact box and Drop a message</h3>
-				<p class="contact-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet luctus venenatis lectus magna fringilla. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-				<!--<a class="contact-us" href="mailto:csandeep497@gmail.com">Contact US</a>-->
-			</div>
-		</div>
-		<div class="mypopup">
-			<div id="Messagebox">
-				<div id="popupcontact">
-					<form action="#" id="form" method="POST" name="form">
-						<img src="images/delete-1.png" onclick="close_form()" id="close">
-						<h2>Contact Us</h2>
-						<input type="text" id="name" name="name" placeholder="Name">
-						<input type="email" name="email" placeholder="email" id="email">
-						<textarea id="msg" name="Message" placeholder="message"></textarea>
-						<a href="javascript:input_fields()" id="submit">Send Message</a>
-						
-					</form>
-					
+				<div>
+					<h2>Need our services?</h2>
+					<h3>Hit the contact box and drop us a message</h3>
+					<p class="contact-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
 				</div>
+	
+			<!--Laveraging the power of JavaScript -->
+	
+			<div class="MyPop">
+				<div id="MessageBox">
+					<!-- Starting Box Popup -->
+					<div id="popupContact">
+						<!--Contact Form -->
+						<form action="#" id="form" method="POST" name="form">
+							<img src="images/delete-1.png" alt="close" id="close" onclick="close_form()">
+							<h2>Contact Us</h2>
+							<input type="text" id="name" name="name" placeholder="Name">
+							<input type="email" id="email" name="email" placeholder="Email">
+							<textarea id="msg" name="message" placeholder="Message"></textarea>
+							<a href="javascript:input_fields()" id="submit">Send Message</a>
+						</form>
+					</div>
+					<!-- This is end of Popup form -->
+				</div>
+				<a class="myButton" id="popup" onclick="show_form()">Contact Us</a>
+				<!--This is the end of PopupMessage-->
 			</div>
-			<a onclick="show_form()" class="contact-us" id="popup">Contact Us</a>
+
 		</div>
 	<footer>
 

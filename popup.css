@@ -1,54 +1,52 @@
-
-#Messagebox{
+#MessageBox{
 	width: 100%;
 	height: 100%;
-	background-color: #02eb12;
 	position: fixed;
+	background-color: #313131;
 	top: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: .96;
+	overflow: auto;
 	display: none;
 }
-.mypopup{
-	background-color: black;
-}
+
 
 img#close{
-	right:2.5px;
-	top: 2.5px;
+	position: absolute;
+	right: -14px;
+	top: -14px;
 	cursor: pointer;
-	position: absolute;
-	background-color: lightgreen;
-}
-div#popupcontact{
-	left: 50%;
-	position: absolute;
-	top: 20%;
-	margin-left: -202px;
 }
 
-.mypopup h2{
-	background-color: lightgreen;
-	padding: 25px 40px;
-	text-align: center;
-	margin: -10px -50px;
+div#popupContact{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	margin-left: -202px;
 }
 
 form{
 	max-width: 300px;
 	min-width: 250px;
 	padding: 10px 50px;
-	border: 3px  solid green;
-	background-color: darkgreen;
-	opacity: 5;
+	border: 3px solid grey;
+	border-radius: 10px;
+	background-color: #ffffff;
 }
 
-.mypopup input[type=text],
+.MyPop h2{
+	background-color: #90ee90;
+	padding: 25px 40px;
+	margin: -10px -50px;
+	border-radius: 10px 10px 0 0;
+}
+
+.MyPop input[type=text],
 input[type=email]{
 	width: 82%;
 	padding: 10px;
 	margin-top: 30px;
-	border: 2px solid green;
+	border: 2px solid grey;
 	padding-left: 40px;
 }
 
@@ -64,7 +62,7 @@ input[type=email]{
 	background-position: 5px 7px;
 }
 
-.mypopup textarea{
+.MyPop textarea{
 	background-image: url(images/icon3.png);
 	background-repeat: no-repeat;
 	background-position: 5px 7px;
@@ -73,7 +71,7 @@ input[type=email]{
 	padding: 10px;
 	margin-top: 30px;
 	resize: none;
-	border:2px solid green;
+	border: 2px solid grey;
 	padding-left: 40px;
 	margin-bottom: 30px;
 }
@@ -83,15 +81,13 @@ input[type=email]{
 	width: 100%;
 	display: block;
 	text-align: center;
-	background-color: black;
-	padding: 15px auto;
+	background-color: #90ee90;
+	padding: 15px 0;
 	font-size: 20px;
 	cursor: pointer;
 	border-radius: 5px;
 }
+
 #submit:hover{
-	background-color:grey;
-}
-#popup{
-align-self: center;
+	background-color: #66CC00;
 }
