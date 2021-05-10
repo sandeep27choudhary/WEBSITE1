@@ -109,6 +109,7 @@ table{
 /* Table Data */
 .myitems{
 	color: darkgreen;
+	margin-bottom: 50px;
 }
 .tname{
 	width: 60%;
@@ -155,19 +156,19 @@ table tbody tr:nth-child(even) td{
 	font-size: 50px;
 }
 
-input[type="email"],
+.Newsletter input[type="email"],
 input[type="password"],
 select{
 	width: 100%;
 	height: 40px;
 	margin-bottom: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid orangered;
 	outline: none;
 	box-sizing: border-box;
 }
 
 
-input[type="email"]:focus,
+.Newsletter input[type="email"]:focus,
 input[type="password"]:focus{
 	border: 1px solid darkgreen;
 	box-shadow: inset 2px 2px 2px rgba(0,0,0,.15);
@@ -199,7 +200,7 @@ input[type="password"]:focus{
 	padding: 20px 40px;
 	float: left;
 	box-sizing: border-box;
-	background-image: linear-gradient(to bottom, orangered, #ffffff)
+	background-image: linear-gradient(to bottom, orangered, #000000);
 }
 
 

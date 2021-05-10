@@ -25,13 +25,13 @@ div#popupContact{
 	margin-left: -202px;
 }
 
-form{
+.Mypop form{
 	max-width: 300px;
 	min-width: 250px;
 	padding: 10px 50px;
 	border: 3px solid grey;
 	border-radius: 10px;
-	background-color: #ffffff;
+	background-color: white;
 }
 
 .MyPop h2{
