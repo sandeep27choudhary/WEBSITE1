@@ -46,7 +46,30 @@
 	opacity: 1;
 }
 
+/*slide pager*/
+.cycle-pager{
+  position: absolute;
+  bottom: 20px;;
+  z-index: 300;
+  align-self: center;
+}
 
+
+
+.cycle-pager span{ 
+  width: 10px;
+  height: 10px;
+  background-color: darkblue;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  text-indent: -9999px;
+  display: block;
+}
+
+.cycle-pager .cycle-pager-active{
+  background-color: grey;
+}
 
 
 
