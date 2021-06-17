@@ -8,4 +8,4 @@ Tools- VS code, Sublime Text
 ![](https://img.shields.io/github/forks/sandeep27choudhary/WEBSITE1)
 ![](https://img.shields.io/github/stars/sandeep27choudhary/WEBSITE1)
 ![](	https://img.shields.io/github/license/sandeep27choudhary/WEBSITE)
-
+[![screenshots](https://github.com/sandeep27choudhary/WEBSITE1/tree/master/screenshots)
